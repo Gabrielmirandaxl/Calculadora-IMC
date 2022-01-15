@@ -1,0 +1,75 @@
+
+section#conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div#container{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: 0px 0px 25px black;
+   
+   
+   
+}
+body{
+    background-color: rgb(0, 210, 218); 
+   
+}
+div.title h1{
+    text-align: center;
+    font-variant: small-caps;
+}
+label{
+    font-style: oblique;
+}
+div.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    flex-direction: column;
+}
+input#nome{
+border-radius: 5px;
+border-color:rgb(0, 210, 218);
+}
+
+input#altura{
+border-radius: 5px;
+border-color:rgb(0, 210, 218); 
+}
+
+input#peso{
+ border-radius: 5px;
+ border-color:rgb(0, 210, 218);
+}
+button#botao{
+    padding: 10px 45px 10px 45px;
+   cursor: pointer;
+   position: absolute;
+   right: 560px;
+   background-color: white;
+   color: black;
+}
+div#resultado{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 174, 180);
+    position: absolute;
+    right: 532px;
+    top: 400px;
+    box-shadow: 0px 0px 14px black;
+    text-align: center;
+    color: white;
+    
+}
+button#botao:hover{
+background-color: black;
+color: white;
+transition: 0.4s;
+}
+
